@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/HW1.week14/src/style.css">
+</head>
+
+<body>
+    <h1 class="calculator__title">Calculator</h1>
+    <div class="calculator__body">
+        <!-- //форма для сложения -->
+
+        <form name="addition">
+            <label>Котик, введи слагаемые в следующие два поля:
+                <input type="text" name="addNumber">
+                <input type="text" name="addNumber">
+            </label>
+            <input type="button" value="Cложить!" onclick="calcSum1()">
+            <!-- <p><label>Котик, вот, что у тебя получилось: -->
+            <!-- <input type="text" name="addResult"> -->
+            <p id="sum"></p>
+            <!-- </label> -->
+            <!-- </p> -->
+        </form>
+
+        <!-- //форма для сложения -->
+        <button onclick="calcSum();" class="box-1 calculator__btn">Addition</button>
+        <button onclick="calcSubtraction();" class="box-2 calculator__btn">Subtraction</button>
+        <button onclick="calcMultiplication();" class="box-3 calculator__btn">Multiplication</button>
+        <button onclick="calcDivision();" class="box-4 calculator__btn">Division</button>
+    </div>
+
+    <script src="/HW1.week14/src/index.js"></script>
+</body>
+
+</html>
