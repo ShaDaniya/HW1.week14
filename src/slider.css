@@ -1,0 +1,13 @@
+.gallery__title {
+    padding-top: 3%;
+}
+
+.gallery__image {
+    width: 70%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.gallery__btn {
+    padding: 30px;
+}
